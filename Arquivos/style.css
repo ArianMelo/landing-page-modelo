@@ -69,7 +69,6 @@ textarea {
 
 input:focus {
     appearance: none;
-    padding: 1em;
     border-color: black;
 }
 
