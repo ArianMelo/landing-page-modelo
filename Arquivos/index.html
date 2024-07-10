@@ -7,21 +7,28 @@
     <title>Landing Page Modelo 01</title>
 </head>
 <body>
-        <div id="login1">
+        <div id="login">
             <h1>Login</h1>
             <p>Faça seu login</p>
             <form action="/pagina-processa-dados-do-form" method="post">
-                <div>
-                    <label for="name">Nome</label>
-                    <input type="text" id="name">
+                <div class="camp">
+                    <label for="fname">Nome</label>
+                    <input type="text" id="fname">
                 </div>
-                <div>
+                <div class="camp">
+                    <label for="lname">Sobrenome</label>
+                    <input type="text" id="lname">
+                </div>
+                <div class="camp">
                     <label for="email">Email</label>
                     <input type="email" id="email">
                 </div>
-                <div>
+                <div class="camp">
                     <label for="msg">Mensagem:</label>
                     <textarea id="msg"></textarea>
+                </div>
+                <div class="button">
+                    <button id="botao" type="submit">Enviar</button>
                 </div>
             </form>
         </div>
